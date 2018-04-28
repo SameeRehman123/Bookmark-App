@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Marcellus');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body{
+  padding-top: 5px;
+  font-family: 'Raleway';
+}
+
+#filterHeader{
+  font-family: 'Raleway';
+  font-size: 1.5em;
+}
+
+label{
+  font-family: 'Raleway';
+  font-size: 0.85em;
+}
+
+#bookmarks span{
+  font-family: 'Marcellus';
+  font-size: 1.88em;
+}
+
+#bookmarks .card .card-content{
+  padding-bottom: 38px;
+  padding-top: 15px;
+}
+
+#bookmarks .card{
+  margin-right: 30px;
+}
+
+#bookmarks .card-content div:first-child p{
+  display: inline;
+  /* outline: 1px red solid; */
+}
+
+.input-field{
+  margin-top: 2rem;
+}
+
+#filterCard .card-content{
+  padding: 12px 15px 0px 15px !important;
+}
+
+#filterCard .card-content .row{
+  margin-bottom: 12px;
+}
+
+
+#filterBar{
+  font-size: 14px;
+  height: 2rem !important;
+  margin-bottom: 1px;
+}
+
+#name, #url, #description{
+  font-size: 14px;
+  height: 38px !important;
+  margin-bottom: 1px;
+}
+
+.select-wrapper input.select-dropdown{
+  font-family: 'Roboto';
+  margin-top: 2px;
+  line-height: 0rem;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#bookmarks .material-icons{
+  font-size: 30px;
+  color: #26a69a;
+}
+
+#bookmarks small{
+  font-style: italic;
+  font-family: 'Marcellus';
+  font-size: 0.90em;
+}
+
+#submitBtn{
+  margin-top: 23px;
+  margin-bottom: -15px;
+}
+
+.links{
+  margin-top: 10px;
+  padding-right: 0px;
+  margin-bottom: 10px;
+}
+
+.links a:first-of-type{
+  border-right: 1px solid #cfcfcf;
+}
+
+.links a{
+  cursor: pointer;
+}
+
+/* .dropdown-trigger{
+  margin-right: 15px;
+  margin-top: 12px;
+} */
+
+#siteInput, #urlInput{
+  margin: 0px;
+}
+
+
+p#name{
+  font-family: 'Raleway';
+  font-size: 1.1em;
+}
